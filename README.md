@@ -1,5 +1,7 @@
 # gbe
 
+![picture](https://github.com/mokyu/gbe/blob/master/img/shot.png?raw=true)
+
 Something i made a long time ago.
 
 ## "Features"
