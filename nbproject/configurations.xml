@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>bitops.h</itemPath>
+      <itemPath>crashhandler.h</itemPath>
+      <itemPath>debugger.h</itemPath>
+      <itemPath>graphics.h</itemPath>
+      <itemPath>interrupt.h</itemPath>
+      <itemPath>logger.h</itemPath>
+      <itemPath>lr35902.h</itemPath>
+      <itemPath>machine.h</itemPath>
+      <itemPath>memory.h</itemPath>
+      <itemPath>opcodes.h</itemPath>
+      <itemPath>renderer.h</itemPath>
+      <itemPath>timers.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>bitops.c</itemPath>
+      <itemPath>crashhandler.c</itemPath>
+      <itemPath>debugger.c</itemPath>
+      <itemPath>graphics.c</itemPath>
+      <itemPath>interrupt.c</itemPath>
+      <itemPath>logger.c</itemPath>
+      <itemPath>lr35902.c</itemPath>
+      <itemPath>machine.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>memory.c</itemPath>
+      <itemPath>opcodes.c</itemPath>
+      <itemPath>renderer.c</itemPath>
+      <itemPath>timers.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+          <commandLine>-O2 -J4</commandLine>
+        </cTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-lncurses -ltinfo </linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs sdl2`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs SDL2_image`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="bitops.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="bitops.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crashhandler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="crashhandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="debugger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="debugger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphics.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="graphics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="interrupt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="interrupt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="logger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lr35902.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lr35902.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="machine.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="machine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="opcodes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="opcodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="renderer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="renderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="timers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="timers.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="bitops.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="bitops.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crashhandler.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="crashhandler.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="debugger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="debugger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="graphics.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="graphics.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="interrupt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="interrupt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="logger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lr35902.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="lr35902.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="machine.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="machine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="memory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="opcodes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="opcodes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="renderer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="renderer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="timers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="timers.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
